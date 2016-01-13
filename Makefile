@@ -10,7 +10,7 @@ build:
 	@docker build -t $(TAG) $(ROOT)
 
 run:
-	@docker run -it -d --privileged --name $(NAME) $(TAG)
+	@docker run --privileged -it -d --name $(NAME) $(TAG)
 
 shell:
 	@docker exec -it $(NAME) bash

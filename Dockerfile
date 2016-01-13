@@ -3,7 +3,7 @@ MAINTAINER Frank Zhao <frank@frankzhao.net>
 
 # Install tools
 RUN apk --update add \
-    iputils net-tools tcpdump \
+    iputils iproute2 net-tools tcpdump \
     ethtool iperf findutils bash
 
 CMD ["bash"]
