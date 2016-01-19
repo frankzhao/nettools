@@ -6,11 +6,19 @@ Small Docker image with some standard network testing tools.
 
 ```
 REPOSITORY            TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-/frankzhao/nettools   latest              f510a750801f        9 seconds ago       11.25 MB
+chickenmaru/nettools   latest              f510a750801f        9 seconds ago       13.41 MB
 ```
 
 Install
 ---
+
+Pull it from the Docker Hub:
+
+```
+docker pull docker pull chickenmaru/nettools
+```
+
+Alternatively, build it yourself:
 
 ```
 make
